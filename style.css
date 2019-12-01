@@ -1,5 +1,5 @@
 .column-one {
-    min-height: 1000px;
+    min-height: 900px;
     width: 20%;
     float: left;
     background-color: rgb(213, 213, 231);
@@ -26,7 +26,7 @@
 }
 
 .column-main {
-    min-height: 1000px;
+    min-height: 900px;
     width: 80%;
     float: left;
 }
@@ -37,7 +37,7 @@
 }
 
 .column-main-content {
-    min-height: 930px;
+    min-height: 830px;
     border: rgb(223, 206, 206) solid 0.5px;
 }
 
@@ -72,7 +72,6 @@
     display: inline-block;
 }
 
-/* start commented backslash hack \*/
 * html .clearfix {
     height: 1%;
 }
@@ -81,7 +80,6 @@
     display: block;
 }
 
-/* close commented backslash hack */
 .foto-main-img {
     max-width: 100%;
     max-height: 100%;
@@ -246,14 +244,16 @@ li a:hover {
     font-size: 2rem;
 }
 
-.profile-top p {
+.profile-top p,
+.foto-main p {
     margin: 10px 0 10px 20px;
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
     color: rgb(70, 28, 194);
 }
 
-.profile-top p:hover {
+.profile-top p:hover,
+.foto-main p:hover {
     text-decoration: underline;
 }
 
@@ -284,7 +284,6 @@ li a:hover {
     display: inline-block;
 }
 
-/* start commented backslash hack \*/
 * html .profile {
     height: 1%;
 }
@@ -293,7 +292,6 @@ li a:hover {
     display: block;
 }
 
-/* close commented backslash hack */
 .profile-bottom-left {
     float: left;
     width: 30%;
@@ -338,13 +336,15 @@ li a:hover {
 }
 
 /* close commented backslash hack */
-.action {
+.action,
+.friends-blue-line {
     background-color: rgb(213, 213, 231);
     height: 30px;
     margin: 0px 5px 5px 5px;
 }
 
-.action p {
+.action p,
+.friends-blue-line p {
     margin: 0 0 0 20px;
     font-family: 'Roboto', sans-serif;
     font-size: 1.5rem;
@@ -467,5 +467,26 @@ li a:hover {
 }
 
 li:hover {
-    text-decoration: underline;
+    color: rgba(228, 220, 217, 0.788);
 }
+
+.photo {
+  width: 90px;
+  margin: 0px 0px 0px 10px;
+  text-align: center;
+  display: inline-block;
+}
+
+.photo h4 {
+    margin-top: 5px;
+    color: rgb(70, 28, 194);
+}
+
+.photo p {
+    margin-bottom: 5px; 
+}
+
+.center-inner {
+text-align: center;
+}
+
