@@ -490,3 +490,38 @@ li:hover {
 text-align: center;
 }
 
+.footer-left {
+    color: white;
+    float: left;
+}
+
+.footer-right {
+    color: white;
+    float: right;
+}
+
+
+.footer {
+    /* background-color: rgb(49, 49, 65); */
+    height: 100px;
+    position: relative;
+}
+
+.footer-left {
+    float: left;
+    position: absolute;
+    bottom: 0;
+    font-family: 'Anton', sans-serif;
+    font-size: 1.2rem;
+}
+
+.footer-right {
+    float: right;
+    position: absolute;
+    bottom: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 0.8rem;
+    right: 20px;
+    margin-left: -25px;
+}
