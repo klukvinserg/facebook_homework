@@ -244,16 +244,14 @@ li a:hover {
     font-size: 2rem;
 }
 
-.profile-top p,
-.foto-main p {
+.profile-top p, .foto-main p {
     margin: 10px 0 10px 20px;
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
     color: rgb(70, 28, 194);
 }
 
-.profile-top p:hover,
-.foto-main p:hover {
+.profile-top p:hover, .foto-main p:hover {
     text-decoration: underline;
 }
 
@@ -326,7 +324,6 @@ li a:hover {
     display: inline-block;
 }
 
-/* start commented backslash hack \*/
 * html .profile-bottom {
     height: 1%;
 }
@@ -336,15 +333,13 @@ li a:hover {
 }
 
 /* close commented backslash hack */
-.action,
-.friends-blue-line {
+.action, .friends-blue-line {
     background-color: rgb(213, 213, 231);
     height: 30px;
     margin: 0px 5px 5px 5px;
 }
 
-.action p,
-.friends-blue-line p {
+.action p, .friends-blue-line p {
     margin: 0 0 0 20px;
     font-family: 'Roboto', sans-serif;
     font-size: 1.5rem;
@@ -471,10 +466,10 @@ li:hover {
 }
 
 .photo {
-  width: 90px;
-  margin: 0px 0px 0px 10px;
-  text-align: center;
-  display: inline-block;
+    width: 90px;
+    margin: 0px 0px 0px 10px;
+    text-align: center;
+    display: inline-block;
 }
 
 .photo h4 {
@@ -483,11 +478,11 @@ li:hover {
 }
 
 .photo p {
-    margin-bottom: 5px; 
+    margin-bottom: 5px;
 }
 
 .center-inner {
-text-align: center;
+    text-align: center;
 }
 
 .footer-left {
@@ -500,9 +495,7 @@ text-align: center;
     float: right;
 }
 
-
-.footer {
-    /* background-color: rgb(49, 49, 65); */
+.footer {    
     height: 100px;
     position: relative;
 }
@@ -510,9 +503,10 @@ text-align: center;
 .footer-left {
     float: left;
     position: absolute;
-    bottom: 0;
+    bottom: 35px;
     font-family: 'Anton', sans-serif;
     font-size: 1.2rem;
+    margin-left: 30px;
 }
 
 .footer-right {
@@ -524,4 +518,50 @@ text-align: center;
     font-size: 0.8rem;
     right: 20px;
     margin-left: -25px;
+}
+
+div.rotate1 {
+    background: url(img/fb_gray.png);
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+}
+
+div.rotate1:hover {
+    background: url(img/fb.png);
+    background-size: cover;
+}
+
+div.rotate2 {
+    background: url(img/insta_gray.png);
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+}
+
+div.rotate2:hover {
+    background: url(img/insta.png);
+    background-size: cover;
+}
+
+div.rotate3 {
+    background: url(img/youtube_gray.png);
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+}
+
+div.rotate3:hover {
+    background: url(img/youtube.png);
+    background-size: cover;
+}
+
+.list3 {
+    float: left;
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 200px;
+    height: 100px;
 }
